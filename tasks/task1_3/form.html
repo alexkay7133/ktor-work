@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1.3</title>
+  </head>
+  <body>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="name">Enter your name NOW:</label>
+        <input type="name" id="name" name="name">
+        <br>
+        <label for="em">Enter your email please:</label>
+        <input type="email" id="em" name="email">
+        <br>
+        <label for="date">When did you spawn?</label>
+        <input type="date" id="date" name="name">
+        <br>
+        <label for="color">Pick my favourite colour:</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <fieldset>
+            <legend>WHAT ARE YOU?</legend>
+            <ul>
+                <li>
+                    <label for="staff">One who teaches</label>
+                    <input type="radio" id="staff" name="occ">
+                </li>
+                <li>
+                    <label for="student">One who is taught</label>
+                    <input type="radio" id="student" name="occ">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit">
+    </form>
+  </body>
+</html>
